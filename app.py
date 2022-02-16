@@ -6,6 +6,8 @@ from vega_datasets import data
 iris = data.iris()
 
 app = Dash(__name__)
+
+server = app.server
 app.layout = html.Div([
         html.Div([
             html.P("X:", style={"float":"left"}),
