@@ -1,4 +1,3 @@
-from click import style
 import altair as alt
 from dash import Dash, dcc, html, Input, Output
 
